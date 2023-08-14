@@ -1,0 +1,42 @@
+{
+  "components": [
+    {
+      "text": "# Товар",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0vcl3v1",
+        "columns": null
+      },
+      "id": "Field_1hxzcp2"
+    },
+    {
+      "values": [
+        {
+          "label": "Погружен",
+          "value": "value"
+        },
+        {
+          "label": "Не погружен",
+          "value": "value2"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0ea7spw",
+        "columns": null
+      },
+      "id": "Field_0sjift1",
+      "key": "field_1ibjr4r"
+    }
+  ],
+  "type": "default",
+  "id": "Form_02nzg2z",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

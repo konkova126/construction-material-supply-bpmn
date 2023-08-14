@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# На складе не оказалось вашего материла",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1h0xbl2",
+        "columns": null
+      },
+      "id": "Field_03jav1g"
+    },
+    {
+      "values": [
+        {
+          "label": "Подождать пока появитя заказ",
+          "value": "wait"
+        },
+        {
+          "label": "Отменить заказ",
+          "value": "value2"
+        }
+      ],
+      "label": "Выберите предложенный вариант решения проблемы",
+      "type": "radio",
+      "layout": {
+        "row": "Row_14meyy3",
+        "columns": null
+      },
+      "id": "Field_112lqv0",
+      "key": "choose"
+    }
+  ],
+  "type": "default",
+  "id": "WaitOrNot",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

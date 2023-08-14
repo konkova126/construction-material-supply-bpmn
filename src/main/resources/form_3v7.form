@@ -1,0 +1,36 @@
+{
+  "components": [
+    {
+      "text": "# Замена материала",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0an21mc",
+        "columns": null
+      },
+      "id": "Field_04aocmi"
+    },
+    {
+      "label": "Отправить информацию о замене",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1f4rw8u",
+        "columns": null
+      },
+      "id": "Field_0dp7an1",
+      "key": "field_1rwttm8",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Replace",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

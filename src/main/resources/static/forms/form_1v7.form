@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "text": "# Оформление заказа",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0ekoby3",
+        "columns": null
+      },
+      "id": "Field_14nn5yt"
+    },
+    {
+      "label": "Номер заказа",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_10ksjah",
+        "columns": null
+      },
+      "id": "Field_0x2ydj5",
+      "key": "field_11ff1ti",
+      "validate": {
+        "required": true,
+        "maxLength": 10
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Цемент",
+          "value": "value"
+        },
+        {
+          "label": "Песок",
+          "value": "value2"
+        },
+        {
+          "label": "Щебень",
+          "value": "value3"
+        }
+      ],
+      "label": "Наименование материала",
+      "type": "select",
+      "layout": {
+        "row": "Row_12tfyct",
+        "columns": null
+      },
+      "id": "Field_01jlgla",
+      "key": "field_0wyx2kp",
+      "searchable": false
+    },
+    {
+      "label": "Количество",
+      "type": "number",
+      "layout": {
+        "row": "Row_1irj6xg",
+        "columns": null
+      },
+      "id": "Field_1h4x4vs",
+      "key": "field_1jgxsvv"
+    },
+    {
+      "label": "Адрес доставки",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0hdnq0o",
+        "columns": null
+      },
+      "id": "Field_0tflpga",
+      "key": "field_1des4iw",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "label": "ГОСТ",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1xos59r",
+        "columns": null
+      },
+      "id": "Field_0v19ftp",
+      "key": "field_0bapmid",
+      "defaultValue": "ГОСТ "
+    },
+    {
+      "action": "submit",
+      "label": "Готово",
+      "type": "button",
+      "layout": {
+        "row": "Row_0x0uho0",
+        "columns": null
+      },
+      "id": "Field_0p109ye",
+      "key": "field_05wwclj"
+    }
+  ],
+  "type": "default",
+  "id": "makingAnOrder",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

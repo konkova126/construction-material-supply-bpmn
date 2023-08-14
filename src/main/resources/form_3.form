@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "text": "# Подтверждение получения заказа",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0ekdc97",
+        "columns": null
+      },
+      "id": "Field_1lzdctw"
+    },
+    {
+      "values": [
+        {
+          "label": "Получен",
+          "value": "true"
+        },
+        {
+          "label": "Не получен",
+          "value": "false"
+        }
+      ],
+      "label": "Факт получения",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1hr7nfh",
+        "columns": null
+      },
+      "id": "Field_1v95l9z",
+      "key": "orderGiven",
+      "description": "указать причину при неполучении",
+      "validate": {
+        "required": false
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Confirmation",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

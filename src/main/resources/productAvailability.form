@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "text": "# Наличие товара",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_03n3bt3",
+        "columns": null
+      },
+      "id": "Field_030z47k"
+    },
+    {
+      "values": [
+        {
+          "label": "да",
+          "value": "yes"
+        },
+        {
+          "label": "нет",
+          "value": "value2"
+        },
+        {
+          "label": "Нужно докупить материал",
+          "value": "value3"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0j82hif",
+        "columns": null
+      },
+      "id": "Field_104pjal",
+      "key": "product"
+    }
+  ],
+  "type": "default",
+  "id": "productAvailability",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

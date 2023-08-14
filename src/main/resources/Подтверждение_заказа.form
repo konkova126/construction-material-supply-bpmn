@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "text": "# Подтверждение оформления заказа",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0ekoby3",
+        "columns": null
+      },
+      "id": "Field_14nn5yt"
+    },
+    {
+      "label": "Номер заказа",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1sec0ll",
+        "columns": null
+      },
+      "id": "Field_0dgyb73",
+      "key": "field_07cvldl",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Цемент",
+          "value": "value"
+        },
+        {
+          "label": "Песок",
+          "value": "value2"
+        },
+        {
+          "label": "Щебень",
+          "value": "value3"
+        }
+      ],
+      "label": "Наименование материала",
+      "type": "select",
+      "layout": {
+        "row": "Row_12tfyct",
+        "columns": null
+      },
+      "id": "Field_01jlgla",
+      "key": "nameMaterial",
+      "searchable": false,
+      "validate": {
+        "required": true
+      },
+      "disabled": true
+    },
+    {
+      "label": "Количество товара",
+      "type": "number",
+      "layout": {
+        "row": "Row_15e7z2x",
+        "columns": null
+      },
+      "id": "Field_0wp3bj5",
+      "key": "field_1br660b",
+      "validate": {
+        "required": true
+      },
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "кг",
+          "value": "value2"
+        },
+        {
+          "label": "шт",
+          "value": "value3"
+        }
+      ],
+      "label": "Ед. изм.",
+      "type": "select",
+      "layout": {
+        "row": "Row_0u6jf1x",
+        "columns": null
+      },
+      "id": "Field_1w1g5il",
+      "key": "field_0y2edi2",
+      "defaultValue": "<none>",
+      "searchable": false,
+      "validate": {
+        "required": true
+      },
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "ул. Комарова, 15",
+          "value": "value"
+        },
+        {
+          "label": "Пр-кт Юбилейный, 7",
+          "value": "value2"
+        },
+        {
+          "label": "Ярославское шоссе, 54",
+          "value": "value3"
+        },
+        {
+          "label": "Value 4",
+          "value": "value4"
+        }
+      ],
+      "label": "Адрес доставки",
+      "type": "select",
+      "layout": {
+        "row": "Row_19nm83o",
+        "columns": null
+      },
+      "id": "Field_1wdkz7o",
+      "key": "field_0gl2tqr",
+      "disabled": true
+    },
+    {
+      "label": "ГОСТ",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1xos59r",
+        "columns": null
+      },
+      "id": "Field_0v19ftp",
+      "key": "GOST",
+      "defaultValue": "ГОСТ -",
+      "validate": {
+        "required": true,
+        "maxLength": 14
+      },
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "acceptOrder",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

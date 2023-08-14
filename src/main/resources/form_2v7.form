@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "text": "# Проверка товара",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1auc35b",
+        "columns": null
+      },
+      "id": "Field_1iegfux"
+    },
+    {
+      "values": [
+        {
+          "label": "Соответствует",
+          "value": "Соответствует"
+        },
+        {
+          "label": "Не соответствует",
+          "value": "Не соответствует"
+        }
+      ],
+      "label": "Качество",
+      "type": "select",
+      "layout": {
+        "row": "Row_15nmu8x",
+        "columns": null
+      },
+      "id": "Field_0gpasct",
+      "key": "quality",
+      "searchable": false,
+      "validate": {
+        "required": false
+      },
+      "defaultValue": "<none>"
+    },
+    {
+      "label": "Нипишите причину, если товар не соответсвует качеству",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1k2i7yh",
+        "columns": null
+      },
+      "id": "Field_1bwicwj",
+      "key": "reason"
+    }
+  ],
+  "type": "default",
+  "id": "organization",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

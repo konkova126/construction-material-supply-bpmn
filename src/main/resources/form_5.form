@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Мы предлагаем вам решение проблемы ",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0giid2v",
+        "columns": null
+      },
+      "id": "Field_0kdzby8"
+    },
+    {
+      "values": [
+        {
+          "label": "Оформить новый заказ",
+          "value": "new"
+        },
+        {
+          "label": "Возврат",
+          "value": "refund"
+        }
+      ],
+      "label": "Варианты",
+      "type": "radio",
+      "layout": {
+        "row": "Row_09vdt1d",
+        "columns": null
+      },
+      "id": "Field_0zbus8a",
+      "key": "question"
+    }
+  ],
+  "type": "default",
+  "id": "newOrder",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

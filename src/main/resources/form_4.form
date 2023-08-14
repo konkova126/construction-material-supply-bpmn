@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "text": "# Выявление причины несоответсвия ",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_16lesc5",
+        "columns": null
+      },
+      "id": "Field_0t4o8fl"
+    },
+    {
+      "values": [
+        {
+          "label": "Утрата или кража материала",
+          "value": "value"
+        },
+        {
+          "label": "Физические повреждения",
+          "value": "value2"
+        },
+        {
+          "label": "Неправильная организация перевозки",
+          "value": "value3"
+        },
+        {
+          "label": "Нарушение правил или норм",
+          "value": "value4"
+        },
+        {
+          "label": "Другая причина",
+          "value": "value5"
+        }
+      ],
+      "label": "Выберите один или более пунктов",
+      "type": "checklist",
+      "layout": {
+        "row": "Row_09hoemk",
+        "columns": null
+      },
+      "id": "Field_1g57ou0",
+      "key": "Check",
+      "validate": {
+        "required": true
+      },
+      "properties": {}
+    },
+    {
+      "label": "Напишите другую причину",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0ok6xgt",
+        "columns": null
+      },
+      "id": "Field_1gepmhk",
+      "key": "field_1x3697u"
+    }
+  ],
+  "type": "default",
+  "id": "Reason",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "text": "# К сожалению компания не подтвердила ваш заказ",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1v60yt1",
+        "columns": null
+      },
+      "id": "Field_1triamm"
+    },
+    {
+      "values": [
+        {
+          "label": "ООО \"СтройМатериал\"",
+          "value": "value"
+        },
+        {
+          "label": "ООО \"ОКИМО\"",
+          "value": "value2"
+        },
+        {
+          "label": "ООО \"Железно\"",
+          "value": "value3"
+        }
+      ],
+      "label": "Выберите другую компанию чтобы оформить поставщика",
+      "type": "select",
+      "layout": {
+        "row": "Row_10naiz9",
+        "columns": null
+      },
+      "id": "Field_04tghw9",
+      "key": "field_1b66cw0"
+    }
+  ],
+  "type": "default",
+  "id": "anotherCompany",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

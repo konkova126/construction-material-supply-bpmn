@@ -1,0 +1,42 @@
+{
+  "components": [
+    {
+      "text": "# Заказ задерживается",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_007bf40",
+        "columns": null
+      },
+      "id": "Field_1d8bks6"
+    },
+    {
+      "values": [
+        {
+          "label": "Подождать",
+          "value": "Wait"
+        },
+        {
+          "label": "Отменить заказ",
+          "value": "value2"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0ttmptt",
+        "columns": null
+      },
+      "id": "Field_1w538kl",
+      "key": "orderIsDelayed"
+    }
+  ],
+  "type": "default",
+  "id": "orderIsDelayed",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

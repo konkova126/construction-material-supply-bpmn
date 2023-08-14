@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Имеются повреждения?",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_16jwfiu",
+        "columns": null
+      },
+      "id": "Field_1a8jdys"
+    },
+    {
+      "values": [
+        {
+          "label": "да",
+          "value": "yes"
+        },
+        {
+          "label": "нет",
+          "value": "value2"
+        }
+      ],
+      "label": "Выберите ответ",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1hrkoay",
+        "columns": null
+      },
+      "id": "Field_1kub77s",
+      "key": "chooseAnswer"
+    }
+  ],
+  "type": "default",
+  "id": "Damage",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}
